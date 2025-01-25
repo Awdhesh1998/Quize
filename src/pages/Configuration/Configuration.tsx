@@ -1,4 +1,4 @@
-import AuthLayout from "../../layout/AuthLayout";
+import AuthLayout from "../../Layout/AuthLayout";
 import ComingSoon from "../error/ComingSoon";
 export default function Configuration(){
     return (<AuthLayout>

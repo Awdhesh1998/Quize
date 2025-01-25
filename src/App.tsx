@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import Login from "./pages/auth/Login";
-import Dashboard from "./pages/dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Profile from "./pages/Profile/Profile";
 import NotFoundPage from "./pages/error/404";
-import { useCookieHandler } from "./lib/helper/useCookieHandler";
+// import { useCookieHandler } from "./lib/helper/useCookieHandler";
 import { useUserInfoQuery } from "./service/user/user";
 import { userSelector } from "./slice/userSlice";
 import Organization from "./pages/organization/Organization";
@@ -19,7 +19,7 @@ import Exam from "./pages/Exam/Exam";
 
 // Authentication Logic
 const isAuthenticated = () => {
-  const { getCookieValue } = useCookieHandler();
+  // const { getCookieValue } = useCookieHandler();
   // return !!getCookieValue("authToken"); // Replace with actual cookie/auth logic
   return true; // Replace with actual cookie/auth logic
 };

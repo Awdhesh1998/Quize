@@ -1,6 +1,6 @@
 import TopBar from "../components/layout/TopBar";
 import MiniDrawer from "../components/layout/MiniDrawer";
-import { Box, Container, Toolbar, styled } from "@mui/material";
+import { Container, Toolbar, styled } from "@mui/material";
 import { useState } from "react";
 
 const MainWrapper = styled("div")(() => ({

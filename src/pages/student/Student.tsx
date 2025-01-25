@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AuthLayout from "../../layout/AuthLayout";
+import AuthLayout from "../../Layout/AuthLayout";
 import { useStudentListQuery } from "../../service/user/student";
 import { Avatar, Box, Typography } from "@mui/material";
 import { IStudentList } from "./data/IStudentList";

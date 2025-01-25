@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Paper, Tab, Tabs, useMediaQuery } from "@mui/material";
-import AuthLayout from "../../layout/AuthLayout";
+import AuthLayout from "../../Layout/AuthLayout";
 import { useTheme } from "@mui/material/styles";
 import OrganizationDetails from "./components/OrganizationDetails";
 import Branch from "./components/Branch";
