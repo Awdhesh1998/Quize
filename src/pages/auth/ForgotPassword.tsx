@@ -1,5 +1,5 @@
 import { Button, Checkbox, FormControlLabel, FormGroup, Stack, Typography } from "@mui/material";
-import GuestLayout from "../../layout/GuestLayout";
+import GuestLayout from "../../Layout/GuestLayout";
 import InputText from "../../components/InputText";
 import Submit from "../../components/Submit";
 import { ChangeEvent, useState } from "react";
